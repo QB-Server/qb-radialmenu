@@ -30,13 +30,6 @@ Config.MenuItems = {
                 event = 'qb-drugs:client:cornerselling',
                 shouldClose = true
             }, {
-                id = 'togglehotdogsell',
-                title = 'Hotdog Selling',
-                icon = 'hotdog',
-                type = 'client',
-                event = 'qb-hotdogjob:client:ToggleSell',
-                shouldClose = true
-            }, {
                 id = 'interactions',
                 title = 'Interaction',
                 icon = 'exclamation-triangle',
@@ -694,16 +687,6 @@ Config.JobInteractions = {
             }
         }
     },
-    ["hotdog"] = {
-        {
-            id = 'togglesell',
-            title = 'Toggle sell',
-            icon = 'hotdog',
-            type = 'client',
-            event = 'qb-hotdogjob:client:ToggleSell',
-            shouldClose = true
-        }
-    }
 }
 
 Config.TrunkClasses = {
